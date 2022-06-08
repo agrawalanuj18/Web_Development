@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.top-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: absolute;
+  top:400px;
+  left: 400px;
+
+}
+
+.middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  position: absolute;
+  left:200px;
+  top:200px;
+ 
+
+}
+
+.lower-container {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  position: absolute;
+
+  
+
+}
