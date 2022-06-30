@@ -11,7 +11,6 @@ body {
 /* first section start here  */
 .starting {
   padding: 3% 15%;
-  /* height: 600px;  */
   color: white;
 }
 
@@ -43,7 +42,6 @@ body {
 
 /* mobile phone  */
 .rotate {
-  /* background-color: transparent; */
   width: 60%;
   transform: rotate(25deg);
 }
