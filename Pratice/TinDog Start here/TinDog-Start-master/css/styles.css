@@ -10,7 +10,7 @@ body {
 
 /* first section start here  */
 .starting {
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
   color: white;
 }
 
@@ -42,8 +42,11 @@ body {
 
 /* mobile phone  */
 .rotate {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+ 
 }
 
 /* Download buttons */
@@ -55,6 +58,10 @@ body {
 
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  
 }
 
 .feature-box {
