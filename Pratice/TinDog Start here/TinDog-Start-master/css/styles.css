@@ -156,3 +156,33 @@ h2 {
 .media-icon {
   margin: 10px;
 }
+
+
+ @media (min-width: 990px) and (max-width: 1160px ) {
+  
+  #title{
+    text-align: center;
+  }
+  
+  .rotate{
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+  }
+
+} 
+
+
+@media (max-width: 990px){
+  
+  #title{
+    text-align: center;
+  }
+  
+  .rotate{
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+
+}
