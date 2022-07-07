@@ -1,0 +1,29 @@
+span{
+    background-color: brown;
+    /* width: 100px; it doesn't work omn span */
+}
+.inline{
+    background-color: aqua;
+    display: inline;
+    width: 100px; 
+    /* //here this width property does not work beacuse of inline element */
+}
+.inline-block{
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+/* here width property is working because we use inline-block property  */
+}
+.none{
+    background-color: aqua;
+    display: none; 
+    /* display none property remove the element from the web page   */
+        width: 100px;
+}
+.visibilty{
+    background-color: aqua;
+  visibility: hidden; 
+  /* visibility hidden property doesn't remove the element , it only hidden */
+  display: inline-block;
+    width: 100px;
+}
