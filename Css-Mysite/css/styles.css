@@ -1,7 +1,22 @@
 body{
     margin: 0;
+  
+}
+.top-container{
+    text-align: center;
+    background-color: #E4F9F5;
+    padding-top: 50px;
 }
 
 h1{
     margin-top: 0;
+}
+
+.top-cloud{
+    position: relative;
+    left: 230px;
+}
+
+.bottom-cloud{
+    position: absolute;
 }
