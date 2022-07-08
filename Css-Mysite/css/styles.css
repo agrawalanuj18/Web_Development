@@ -1,9 +1,10 @@
 body{
     margin: 0;
+    text-align: center;
   
 }
 .top-container{
-    text-align: center;
+    /* text-align: center; */
     background-color: #E4F9F5;
     padding-top: 50px;
 }
