@@ -29,14 +29,14 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #11999e;
 }
-a{
-    color: #11999e;
+a {
+  color: #11999e;
 }
 
 hr {
   border: 8px dotted #9a9a9a;
   border-style: none none dotted;
-  width: 7%; 
+  width: 7%;
   /* color: #EAF6F6;  */
   /* background-color: #fff; */
 }
@@ -52,24 +52,23 @@ hr {
 }
 
 /* profile section  */
-.middle-container{
+.middle-container {
   margin: 30px;
 }
 
-.profile-img{
+.profile-img {
   width: 20%;
 }
 
 /* skill section  */
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;  
+  line-height: 2;
 }
 
-
-.skill-img{
+.skill-img {
   width: 25%;
   float: left;
   margin-right: 30px;
@@ -88,20 +87,19 @@ use position property like absolute, relative postioning propety for postioning 
   to remove the effect of float 
 } */
 
-
 /* Contact section  */
 
-.contact-me{
+.contact-me {
   margin: 30px;
 }
 
 .btn {
-  background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -moz-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -ms-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -o-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: linear-gradient(to bottom, #66bfbf, #66bfbf);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -113,28 +111,25 @@ use position property like absolute, relative postioning propety for postioning 
 }
 
 .btn:hover {
-  background: #11999E;
-  background-image: -webkit-linear-gradient(top, #11999E, #11999E);
-  background-image: -moz-linear-gradient(top, #11999E, #11999E);
-  background-image: -ms-linear-gradient(top, #11999E, #11999E);
-  background-image: -o-linear-gradient(top, #11999E, #11999E);
-  background-image: linear-gradient(to bottom, #11999E, #11999E);
+  background: #11999e;
+  background-image: -webkit-linear-gradient(top, #11999e, #11999e);
+  background-image: -moz-linear-gradient(top, #11999e, #11999e);
+  background-image: -ms-linear-gradient(top, #11999e, #11999e);
+  background-image: -o-linear-gradient(top, #11999e, #11999e);
+  background-image: linear-gradient(to bottom, #11999e, #11999e);
   text-decoration: none;
 }
 
 /* footer  */
-.bottom-container{
-  background-color: #66BFBF;
- padding: 30px;
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px;
 }
-.footer-link{
-color: #11999E;
-text-decoration: none;
-margin: 10px;
-
-
-
+.footer-link {
+  color: #11999e;
+  text-decoration: none;
+  margin: 10px;
 }
-.copyright{
-  color: #EAF6F6;
+.copyright {
+  color: #eaf6f6;
 }
