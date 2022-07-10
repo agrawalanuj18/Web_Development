@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
@@ -6,8 +7,9 @@ body {
 .top-container {
   /* text-align: center; */
   background-color: #e4f9f5;
-  padding-top: 50px;
+  padding-top: 80px;
 }
+
 
 h1 {
   font-size: 5rem;
@@ -24,6 +26,7 @@ h2 {
   font-size: 2.25rem;
   color: #66bfbf;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -33,12 +36,20 @@ a {
   color: #11999e;
 }
 
+a:hover{
+  color: #eaf6ea;
+}
+
+p{
+  line-height: 2;
+}
+
 hr {
   border: 8px dotted #9a9a9a;
   border-style: none none dotted;
   width: 7%;
-  /* color: #EAF6F6;  */
-  /* background-color: #fff; */
+  margin: 70px auto;
+
 }
 
 .top-cloud {
@@ -60,12 +71,17 @@ hr {
   width: 20%;
 }
 
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
 /* skill section  */
 .skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;
+ 
 }
 
 .skill-img {
@@ -93,6 +109,11 @@ use position property like absolute, relative postioning propety for postioning 
   margin: 30px;
 }
 
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .btn {
   background: #66bfbf;
   background-image: -webkit-linear-gradient(top, #66bfbf, #66bfbf);
@@ -103,7 +124,7 @@ use position property like absolute, relative postioning propety for postioning 
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Georgia;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -123,13 +144,15 @@ use position property like absolute, relative postioning propety for postioning 
 /* footer  */
 .bottom-container {
   background-color: #66bfbf;
-  padding: 30px;
+  padding: 25px;
 }
 .footer-link {
-  color: #11999e;
+  color: #11999E;
   text-decoration: none;
-  margin: 10px;
+  margin: 10px 20px;
 }
 .copyright {
   color: #eaf6f6;
+  font-size: 0.75rem;
+  padding-top: 20px;
 }
