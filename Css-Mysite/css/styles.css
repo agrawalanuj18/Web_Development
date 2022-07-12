@@ -84,11 +84,19 @@ hr {
  
 }
 
-.skill-img {
+.skill-first{
   width: 25%;
   float: left;
   margin-right: 30px;
 }
+
+.skill-second {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
 
 /* Use float only when it is necessssary  
 
