@@ -89,6 +89,11 @@ hr {
   float: left;
   margin-right: 30px;
 }
+.skill-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
 
 /* Use float only when it is necessssary  
 
@@ -105,12 +110,12 @@ use position property like absolute, relative postioning propety for postioning 
 /* Contact section  */
 
 .contact-me {
-  margin: 30px;
+  margin: 20px;
 }
 
 .contact-msg{
   width: 40%;
-  margin: 40px auto 60px;
+  margin: 30px auto 40px;
 }
 
 .btn {
@@ -125,7 +130,7 @@ use position property like absolute, relative postioning propety for postioning 
   border-radius: 28px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -143,15 +148,15 @@ use position property like absolute, relative postioning propety for postioning 
 /* footer  */
 .bottom-container {
   background-color: #66bfbf;
-  padding: 25px;
+  padding: 20px;
 }
 .footer-link {
-  color: #11999E;
+  color: #07484a;
   text-decoration: none;
   margin: 10px 20px;
 }
 .copyright {
   color: #eaf6f6;
-  font-size: 0.75rem;
-  padding-top: 20px;
+  font-size: 0.9rem;
+  padding-top: 15px;
 }
