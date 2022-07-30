@@ -8,3 +8,17 @@ for (let i = 1; i <= n; i++) {
     console.log(Sum);
   }
 }
+// Find factorial of Number 
+let n = prompt("Enter the value of n")
+n = Number.parseInt(n)
+let factorial = 1
+for (let i = 1; i <= n; i++) {
+
+  factorial *= i;
+  if (i == n) {
+    console.log(factorial)
+  }
+}
+if (n == 0) {
+  console.log(factorial)
+}
