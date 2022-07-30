@@ -12,4 +12,4 @@ let obj = {
   // For of Loop
   for(let b of "Harry"){
     console.log(b)
-  }
+  }w
