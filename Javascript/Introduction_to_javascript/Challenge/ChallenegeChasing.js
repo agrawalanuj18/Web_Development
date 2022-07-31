@@ -2,6 +2,6 @@
 let name = prompt("Enter the name");
 let first = name.slice(0,1);
 first = first.toUpperCase();
-let remaining = name.slice(1,220);
+let remaining = name.slice(1,name.length);
 remaining = remaining.toLowerCase();
-alert("Hello, " + first + remaining +"!" );
+alert("Hello, " + first + remaining + "!" );
