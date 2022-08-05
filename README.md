@@ -1,3 +1,3 @@
-# Web_Development Bootcamp
+# Web Development Bootcamp
 Learning Web Development from Scratch. 
-Web Development Bootcamp by Angela Yu
+
