@@ -8,12 +8,12 @@ console.log($("a").attr("src")); // to get an attribute
 $("a").attr("href", "https:/www.yahoo.com"); // to set an attribute
 
 // AddEventListerner
-$("h1").click(function () {
-  $("h1").css("color", "purple");
-});
-$("button").click(function () {
-  $("h1").css("color", "purple");
-});
+// $("h1").click(function () {
+//   $("h1").css("color", "purple");
+// });
+// $("button").click(function () {
+//   $("h1").css("color", "purple");
+// });
 
 $("input").keydown(function (event) {
   $("h1").text(event.key);
@@ -30,3 +30,22 @@ $("h1").prepend("<button>Click me</button>")
 $("h1").append("<button>Click me</button>")
 // If we want too add the element
 $("h3").remove();
+
+// hide/ show button 
+// we also use toggle element 
+
+//fade 
+// $("button").on("click", function(){
+//     $("h1").fadeToggle();
+// })
+// slideToggle
+
+// animation
+// animate
+$("button").on("click", function(){
+    $("h1").animate({opacity: 0.5 });
+})
+
+// There are so many method to animate With the help of JQuery
+// There is no need to learn anything
+// Everything is present on Internet
