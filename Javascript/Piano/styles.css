@@ -80,3 +80,67 @@ body {
 .black-key:nth-child(10) {
   left: 865px;
 }
+
+
+@media (max-width: 990px){
+  
+  #piano {
+    height: 300px;
+  }
+  
+  .keys {
+    position: relative;
+  }
+  
+  .white-keys {
+    display: flex;
+  }
+  .black-keys {
+    display: flex;
+    /* position: relative; */
+  }
+  
+  .white-key {
+    width: 23px;
+    height: 200px;
+    border-radius: 0 0 3px 3px;
+    border: solid #000 1px;
+  }
+  .black-key {
+    width: 10px;
+    height: 130px;
+    border-radius: 0 0 3px 3px;
+  }
+  
+  .black-key:nth-child(1) {
+    left: 18px;
+  }
+  .black-key:nth-child(2) {
+    left: 41px;
+  }
+  .black-key:nth-child(3) {
+    left: 87px;
+  }
+  .black-key:nth-child(4) {
+    left: 110px;
+  }
+  .black-key:nth-child(5) {
+    left: 133px;
+  }
+  .black-key:nth-child(6) {
+    left: 156px;
+  }
+  .black-key:nth-child(7) {
+    left: 204px;
+  }
+  .black-key:nth-child(8) {
+    left: 227px;
+  }
+  .black-key:nth-child(9) {
+    left: 270px;
+  }
+  .black-key:nth-child(10) {
+    left: 293px;
+  }
+
+}
