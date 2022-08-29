@@ -60,3 +60,7 @@ switch (randomNumber2) {
   else{
     document.querySelector("h1").innerText = "Draw";
   }
+  
+  document.querySelector("button").addEventListener("click", function(){
+    location.reload();
+  })
