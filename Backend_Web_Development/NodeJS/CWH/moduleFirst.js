@@ -1,3 +1,4 @@
-const simple2 = require("./moduleSecond")
+// const simple2 = require("./moduleSecond") Not supported in .mjs
 
-simple2();
+import {simple} from "./moduleSecond.mjs"
+simple();
