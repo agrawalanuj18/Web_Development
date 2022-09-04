@@ -1,15 +1,14 @@
 {
-  "name": "cwh",
+  "name": "expresstut",
   "version": "1.0.0",
-  "description": "This is Express JS",
-  "main": "server.js",
+  "description": "This is a tutorial",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anuj",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.17.1"
   }
 }
