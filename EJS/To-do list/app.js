@@ -2,7 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const app = express();
-var items = ["Learn Web Development", "DSA"];
+let items = [];
+let workItems = [];
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -11,25 +12,36 @@ app.use(express.static("public"));
 const port = 3000;
 
 app.get("/", (req, res) => {
-  var today = new Date();
+  let today = new Date();
 
-  var option = {
+  let option = {
     weekday: "long",
     day: "numeric",
     month: "long",
   };
 
   var day = today.toLocaleDateString("en-US", option);
-
-  res.render("list", { KindOfDay: day, newListItem: items });
+  res.render("list", { listTitle: day, newListItem: items });
 });
 
-app.get("/work", () => {});
+app.get("/work", (req, res) => {
+  res.render("list", { listTitle: "Work List", newListItem: workItems });
+});
 
 app.post("/", (req, res) => {
-  var item = req.body.newItem;
-  items.push(item);
-  res.redirect("/");
+  let item = req.body.newItem;
+
+  if (req.body.list == "Work List") {
+    workItems.push(item);
+    res.redirect("/work");
+  } else {
+    items.push(item);
+    res.redirect("/");
+  }
+});
+
+app.post("/work", (req, res) => {
+  let item = req.body.newItem;
 });
 
 app.listen(port, () => {
