@@ -1,7 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const date = require(__dirname + "/date.js");
-
 const app = express();
 let items = [];
 let workItems = []; 
@@ -37,6 +36,8 @@ app.post("/", (req, res) => {
     res.redirect("/");
   }
 });
+
+
 
 app.post("/work", (req, res) => {
   let item = req.body.newItem;
