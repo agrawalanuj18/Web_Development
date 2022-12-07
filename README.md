@@ -2,8 +2,6 @@
 Learning Web Development from Scratch.
 
 Whats I will learn:
-
-	- Be able to build ANY website you want.
 	
 	- Craft a portfolio of websites to apply for junior developer jobs.
 	
