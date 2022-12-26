@@ -1,6 +1,6 @@
 ### `Web Development BootCamp`
 Learning Web Development from Scratch to Advanced level.
-
+Focus on becoming MERN Stack developer.
 Whats I will learn:
 	
 	- Craft a portfolio of websites to apply for junior developer jobs.
