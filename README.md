@@ -3,7 +3,7 @@ Learning Web Development from Scratch to Advanced level.
 Focus on becoming MERN Stack developer.
 
 
-Whats I have/will learn:
+Whats I have learn:
 	
 	- Craft a portfolio of websites to apply for junior developer jobs.
 	
