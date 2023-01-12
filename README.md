@@ -15,7 +15,7 @@ Whats I have learn:
 	
 	- Master frontend development with React JS 
 	
-	- Learn the latest frameworks and technologies, including Javascript ES6, Bootstrap 4, MongoDB, REACTJS
+	- Learn the latest frameworks and technologies, including Javascript ES6, Bootstrap 4, MongoDB, ReactJS
 	
 Link: https://www.udemy.com/course/the-complete-web-development-bootcamp/
 
